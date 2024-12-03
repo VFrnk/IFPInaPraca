@@ -1,0 +1,97 @@
+{
+    "perguntas": [
+      {
+        "id": 1,
+        "enunciado": "Qual é a capital do Brasil?",
+        "alternativas": [
+          {
+            "texto": "São Paulo",
+            "correta": false
+          },
+          {
+            "texto": "Rio de Janeiro",
+            "correta": false
+          },
+          {
+            "texto": "Brasília",
+            "correta": true
+          },
+          {
+            "texto": "Salvador",
+            "correta": false
+          }
+        ],
+        "nivel": "fácil"
+      },
+      {
+        "id": 2,
+        "enunciado": "Quem desenvolveu a teoria da relatividade?",
+        "alternativas": [
+          {
+            "texto": "Isaac Newton",
+            "correta": false
+          },
+          {
+            "texto": "Nikola Tesla",
+            "correta": false
+          },
+          {
+            "texto": "Albert Einstein",
+            "correta": true
+          },
+          {
+            "texto": "Galileu Galilei",
+            "correta": false
+          }
+        ],
+        "nivel": "médio"
+      },
+      {
+        "id": 3,
+        "enunciado": "Qual é o resultado de 2^10?",
+        "alternativas": [
+          {
+            "texto": "512",
+            "correta": false
+          },
+          {
+            "texto": "1024",
+            "correta": true
+          },
+          {
+            "texto": "2048",
+            "correta": false
+          },
+          {
+            "texto": "4096",
+            "correta": false
+          }
+        ],
+        "nivel": "difícil"
+      },
+      {
+        "id": 4,
+        "enunciado": "Qual foi o ano de publicação do primeiro algoritmo de criptografia RSA?",
+        "alternativas": [
+          {
+            "texto": "1976",
+            "correta": false
+          },
+          {
+            "texto": "1977",
+            "correta": true
+          },
+          {
+            "texto": "1980",
+            "correta": false
+          },
+          {
+            "texto": "1985",
+            "correta": false
+          }
+        ],
+        "nivel": "muito difícil"
+      }
+    ]
+  }
+  
