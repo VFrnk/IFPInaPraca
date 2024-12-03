@@ -1,7 +1,7 @@
 function Game() {
     return(
         <div>
-            Pergunta
+            Pergunta2
         </div>
     )
 }
