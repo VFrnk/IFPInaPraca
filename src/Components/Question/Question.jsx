@@ -1,45 +1,64 @@
-import React, { useState } from "react";
+import { useState, useEffect } from 'react';
 import './Question.css';
 import { useNavigate } from "react-router-dom";
 
-export default function Question({ statement, answers }) {
-  const [feedback, setFeedback] = useState(null); // Estado para o feedback da resposta
-
-  // Função para embaralhar as respostas
-  const shuffleAnswers = (answers) => {
-    return [...answers].sort(() => Math.random() - 0.5);
-  };
-
-  const shuffledAnswers = shuffleAnswers(answers);
+const Question = ({ enunciado, alternativas, Acertar }) => {
+  const [alternativasEmbaralhadas, setAlternativasEmbaralhadas] = useState([]);
+  const [alternativasOriginais, setAlternativasOriginais] = useState([]);
 
   const navigate = useNavigate();
-  const perder = () => {
-    return(navigate('/end'))
-  }
-  // Função chamada ao clicar em uma resposta
-  const handleAnswerClick = (isCorrect) => {
-    if (isCorrect) {
-      setFeedback("Você acertou! ");
+
+  useEffect(() => {
+    const embaralhadas = [...alternativas].sort(() => Math.random() - 0.5);
+    setAlternativasEmbaralhadas(embaralhadas);
+    setAlternativasOriginais(embaralhadas);
+  }, [alternativas]);
+
+  const CartasSorte = () => {
+    let novasAlternativas = [...alternativasOriginais]; 
+    let contador = 0;
+    let NumeroCarta = Math.ceil(Math.random() * 3);
+
+    while (contador < NumeroCarta) {
+      let j = Math.floor(Math.random() * novasAlternativas.length);
+
+      if (!novasAlternativas[j].correta) {
+        novasAlternativas.splice(j, 1);
+        contador++;
+      }
+    }
+
+    setAlternativasEmbaralhadas(novasAlternativas);
+  };
+
+  const verificarResposta = (correta) => {
+    if (correta) {
+      Acertar((acertos) => acertos + 1);
+      alert('Você acertou!!!');
     } else {
-      perder()
+      navigate('/end');
     }
   };
 
   return (
     <div className="column">
-      <div className="statement">{statement}</div>
+      <div className="statement">{enunciado}</div>
+      <div>
+        <button onClick={CartasSorte}>Usar Cartas de Sorte</button>
+      </div>
       <div className="answers">
-        {shuffledAnswers.map((answer, index) => (
+        {alternativasEmbaralhadas.map((alternativa, index) => (
           <div
             key={index}
             className="answer"
-            onClick={() => handleAnswerClick(answer.correta)} // Passa se a resposta está correta
+            onClick={() => verificarResposta(alternativa.correta)} 
           >
-            {answer.texto}
+            {alternativa.texto}
           </div>
         ))}
       </div>
-      {feedback && <div className="feedback">{feedback}</div>}
     </div>
   );
-}
+};
+
+export default Question;
