@@ -5,7 +5,7 @@ import CasinoIcon from '@mui/icons-material/Casino';
 import SkipNextIcon from '@mui/icons-material/SkipNext';
 import SchoolIcon from '@mui/icons-material/School'
 
-const Question = ({ enunciado, alternativas, Acertar, pularQuestao }) => {
+const Question = ({ enunciado, alternativas, dica, Acertar, pularQuestao }) => {
   const [alternativasEmbaralhadas, setAlternativasEmbaralhadas] = useState([]);
   const [alternativasOriginais, setAlternativasOriginais] = useState([]);
   const [pulosRestantes, setPulosRestantes] = useState(3); // Máximo de pulos
@@ -21,6 +21,8 @@ const Question = ({ enunciado, alternativas, Acertar, pularQuestao }) => {
     let novasAlternativas = [...alternativasOriginais];
     let contador = 0;
     let NumeroCarta = Math.ceil(Math.random() * 3);
+    alert(`As Cartas de Sorte irão escolher aleatoriamente entre 1 a 3 alternativas para eliminar contando com sua sorte. O número da sua sorte é...`)
+    alert(` ${NumeroCarta}! Agora você tem mais chances de acertar. Boa sorte!`)
 
     while (contador < NumeroCarta && novasAlternativas.length > 1) {
       const index = Math.floor(Math.random() * novasAlternativas.length);
@@ -66,26 +68,53 @@ const Question = ({ enunciado, alternativas, Acertar, pularQuestao }) => {
         </div>
       </div>
       <div className="caixa-ajuda">
-        <button onClick={CartasSorte} className="btn-sorte">
+        <button
+         onClick={() => {
+          if(window.confirm('Deseja utilizar as cartas?'))
+            {CartasSorte()}
+        }} 
+
+         className="btn-sorte">
           <CasinoIcon style={{ fontSize: '20px' }} /> <br />
           Usar Cartas de Sorte 
         </button>
         <button 
-          onClick={pular} 
+          onClick={
+            () => {
+              if(window.confirm(`Você deseja pular a questão? Você tem apenas ${pulosRestantes} pulos restando...`)){
+                pular();
+              }
+            }
+          } 
           className="btn-pular" 
           disabled={pulosRestantes === 0} // Desabilita o botão se não houver mais pulos
         >
           <SkipNextIcon style={{ fontSize: '20px' }} /> <br />
           Pular Questão {pulosRestantes}x
         </button>
-        <button className='btn-un'>
+        <button className='btn-un'
+          onClick={
+            () => {
+              if(window.confirm('Você deseja pedir ajuda aos universitários?')){
+                alert('Você pediu ajuda aos universitários, ao seu lado devem estar 3 alunos do IFPI - Campus Parníba que vão dar suas opiniões sobre a questão.')
+              }
+            }
+          }>
         <SchoolIcon style={{ fontSize: '20px' }}/> <br />
           Ajuda dos Universitários
         </button>
-        <button className='btn-un'>
-          <SchoolIcon style={{ fontSize: '20px' }}/> <br />
-          Usar Dica 
-          <br />&nbsp;
+        <button 
+          onClick={
+            () => {
+              if(window.confirm('Você deseja pedir uma dica?')){
+                alert(dica)
+              }
+            }
+          } 
+          className='btn-un'>
+            <SchoolIcon style={{ fontSize: '20px' }}/> <br />
+            Usar Dica 
+            <br />&nbsp;
         </button>
       </div>
     </div>

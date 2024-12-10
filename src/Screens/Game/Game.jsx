@@ -63,6 +63,7 @@ function Game() {
         <div>
             <Question
                 enunciado={perguntaAtual.enunciado}
+                dica={perguntaAtual.dica}
                 alternativas={perguntaAtual.alternativas.map((alt) => ({
                     texto: `${Object.values(alt)[0]}`,
                     correta: alt.correta,
