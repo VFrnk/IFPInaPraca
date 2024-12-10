@@ -8,7 +8,10 @@ import SchoolIcon from '@mui/icons-material/School'
 const Question = ({ enunciado, alternativas, dica, Acertar, pularQuestao }) => {
   const [alternativasEmbaralhadas, setAlternativasEmbaralhadas] = useState([]);
   const [alternativasOriginais, setAlternativasOriginais] = useState([]);
-  const [pulosRestantes, setPulosRestantes] = useState(3); // Máximo de pulos
+  const [pulosRestantes, setPulosRestantes] = useState(3); 
+  const [cartasUsadas, usarCartas] = useState(false);
+  const [dicaUsada, usarDica] = useState(false);
+  const [ajudaUsada, usarAjuda] = useState(false);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -19,6 +22,7 @@ const Question = ({ enunciado, alternativas, dica, Acertar, pularQuestao }) => {
 
   const CartasSorte = () => {
     let novasAlternativas = [...alternativasOriginais];
+    usarCartas(true);
     let contador = 0;
     let NumeroCarta = Math.ceil(Math.random() * 3);
     alert(`As Cartas de Sorte irão escolher aleatoriamente entre 1 a 3 alternativas para eliminar contando com sua sorte. O número da sua sorte é...`)
@@ -46,8 +50,8 @@ const Question = ({ enunciado, alternativas, dica, Acertar, pularQuestao }) => {
 
   const pular = () => {
     if (pulosRestantes > 0) {
-      setPulosRestantes(pulosRestantes - 1); // Decrementa o número de pulos restantes
-      pularQuestao(); // Chama a função de pular questão passada pelo componente pai
+      setPulosRestantes(pulosRestantes - 1); 
+      pularQuestao();
     }
   };
 
@@ -60,7 +64,13 @@ const Question = ({ enunciado, alternativas, dica, Acertar, pularQuestao }) => {
             <div
               key={index}
               className="answer"
-              onClick={() => verificarResposta(alternativa.correta)}
+              onClick={
+                () => {
+                  if(window.confirm('Você está certo desta resposta?')){
+                    verificarResposta(alternativa.correta)
+                  }
+                } 
+              }
             >
               {alternativa.texto}
             </div>
@@ -69,12 +79,18 @@ const Question = ({ enunciado, alternativas, dica, Acertar, pularQuestao }) => {
       </div>
       <div className="caixa-ajuda">
         <button
-         onClick={() => {
-          if(window.confirm('Deseja utilizar as cartas?'))
-            {CartasSorte()}
-        }} 
+          onClick={() => {
+            if(window.confirm('Deseja utilizar as cartas?'))
+              {CartasSorte()}
+          }} 
 
-         className="btn-sorte">
+          className="btn-sorte"
+          disabled={cartasUsadas}
+          style={{
+            background : cartasUsadas? 'red' : ''
+          }}
+          >
+
           <CasinoIcon style={{ fontSize: '20px' }} /> <br />
           Usar Cartas de Sorte 
         </button>
@@ -87,15 +103,23 @@ const Question = ({ enunciado, alternativas, dica, Acertar, pularQuestao }) => {
             }
           } 
           className="btn-pular" 
-          disabled={pulosRestantes === 0} // Desabilita o botão se não houver mais pulos
+          disabled={pulosRestantes === 0}
+          style = {{
+            background : pulosRestantes == 0? 'red' : ''
+          }} 
         >
           <SkipNextIcon style={{ fontSize: '20px' }} /> <br />
           Pular Questão {pulosRestantes}x
         </button>
         <button className='btn-un'
+          disabled={ajudaUsada}
+          style={{
+            background : ajudaUsada? 'red' : ''
+          }}
           onClick={
             () => {
               if(window.confirm('Você deseja pedir ajuda aos universitários?')){
+                usarAjuda(true);
                 alert('Você pediu ajuda aos universitários, ao seu lado devem estar 3 alunos do IFPI - Campus Parníba que vão dar suas opiniões sobre a questão.')
               }
             }
@@ -104,9 +128,14 @@ const Question = ({ enunciado, alternativas, dica, Acertar, pularQuestao }) => {
           Ajuda dos Universitários
         </button>
         <button 
+          disabled = {dicaUsada}
+          style={{
+            background : dicaUsada? 'red' : ''
+          }}
           onClick={
             () => {
               if(window.confirm('Você deseja pedir uma dica?')){
+                usarDica(true);
                 alert(dica)
               }
             }
