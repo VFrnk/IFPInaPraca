@@ -1,4 +1,5 @@
 import './App.css';
+import '@fontsource/roboto';
 import Gameover from './Screens/Gameover/Gameover';
 import Home from './Screens/Home/Home';
 import Game from './Screens/Game/Game';

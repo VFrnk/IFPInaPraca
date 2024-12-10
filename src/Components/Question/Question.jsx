@@ -3,6 +3,7 @@ import './Question.css';
 import { useNavigate } from "react-router-dom";
 import CasinoIcon from '@mui/icons-material/Casino';
 import SkipNextIcon from '@mui/icons-material/SkipNext';
+import SchoolIcon from '@mui/icons-material/School'
 
 const Question = ({ enunciado, alternativas, Acertar, pularQuestao }) => {
   const [alternativasEmbaralhadas, setAlternativasEmbaralhadas] = useState([]);
@@ -66,18 +67,26 @@ const Question = ({ enunciado, alternativas, Acertar, pularQuestao }) => {
       </div>
       <div className="caixa-ajuda">
         <button onClick={CartasSorte} className="btn-sorte">
-          Usar Cartas de Sorte <CasinoIcon style={{ marginLeft: '8px', fontSize: '20px' }} />
+          <CasinoIcon style={{ fontSize: '20px' }} /> <br />
+          Usar Cartas de Sorte 
         </button>
         <button 
           onClick={pular} 
           className="btn-pular" 
           disabled={pulosRestantes === 0} // Desabilita o botão se não houver mais pulos
         >
-          Pular Questão <SkipNextIcon style={{ marginLeft: '8px', fontSize: '20px' }} />
+          <SkipNextIcon style={{ fontSize: '20px' }} /> <br />
+          Pular Questão {pulosRestantes}x
         </button>
-        <div className="pulos-info">
-          Pulos restantes: {pulosRestantes}
-        </div>
+        <button className='btn-un'>
+        <SchoolIcon style={{ fontSize: '20px' }}/> <br />
+          Ajuda dos Universitários
+        </button>
+        <button className='btn-un'>
+          <SchoolIcon style={{ fontSize: '20px' }}/> <br />
+          Usar Dica 
+          <br />&nbsp;
+        </button>
       </div>
     </div>
   );
