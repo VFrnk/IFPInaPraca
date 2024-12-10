@@ -1,0 +1,1205 @@
+{
+    "perguntas": [
+      {
+        "id": 1,
+        "enunciado": "Qual é o bioma brasileiro mais conhecido por sua grande diversidade de animais e plantas?",
+        "alternativas": [
+          {"A": "Caatinga", "correta": false},
+          {"B": "Amazônia", "correta": true},
+          {"C": "Pampa", "correta": false},
+          {"D": "Cerrado", "correta": false}
+        ],
+        "nivel": "fácil",
+        "dica": "É o maior bioma brasileiro e conhecido como o 'pulmão do mundo', abrigando a maior biodiversidade do planeta."
+      },
+      {
+        "id": 2,
+        "enunciado": "Qual bioma brasileiro é caracterizado por uma vegetação adaptada a longos períodos de seca?",
+        "alternativas": [
+          {"A": "Mata Atlântica", "correta": false},
+          {"B": "Pampa", "correta": false},
+          {"C": "Caatinga", "correta": true},
+          {"D": "Pantanal", "correta": false}
+        ],
+        "nivel": "fácil",
+        "dica": "Esse bioma é exclusivo do Brasil e adaptado às condições áridas, com cactos e outras plantas resistentes à seca."
+      },
+      {
+        "id": 3,
+        "enunciado": "O Cerrado é conhecido por sua vegetação de quais tipos de plantas?",
+        "alternativas": [
+          {"A": "Florestas densas e verdes", "correta": false},
+          {"B": "Árvores esparsas e gramíneas", "correta": true},
+          {"C": "Cactos e plantas aquáticas", "correta": false},
+          {"D": "Plantas tropicais e subtropicais", "correta": false}
+        ],
+        "nivel": "fácil",
+        "dica": "É a 'savana brasileira', caracterizada por árvores de pequeno porte e gramíneas, além de ser um dos biomas mais ameaçados do país."
+      },
+      {
+        "id": 4,
+        "enunciado": "Quais desses biomas brasileiros são predominantes na Região Nordeste do país?",
+        "alternativas": [
+          {"A": "Pampa e Pantanal", "correta": false},
+          {"B": "Cerrado e Mata Atlântica", "correta": false},
+          {"C": "Pantanal e Amazônia", "correta": false},
+          {"D": "Caatinga e Cerrado", "correta": true}
+        ],
+        "nivel": "fácil",
+        "dica": "Esses biomas predominam na Região Nordeste; enquanto um é típico do sertão, o outro ocupa parte do centro-oeste dessa região."
+      },
+      {
+        "id": 5,
+        "enunciado": "Qual bioma brasileiro é conhecido por ser a 'floresta tropical' do Brasil, e está em grande parte no litoral?",
+        "alternativas": [
+          {"A": "Pampas", "correta": false},
+          {"B": "Mata Atlântica", "correta": true},
+          {"C": "Cerrado", "correta": false},
+          {"D": "Amazônia", "correta": false}
+        ],
+        "nivel": "fácil",
+        "dica": "Uma floresta tropical costeira, rica em biodiversidade, que já cobriu grande parte do litoral brasileiro, mas hoje está bastante devastada."
+      },
+      {
+        "id": 6,
+        "enunciado": "Qual bioma brasileiro é o único que ocorre em sua totalidade fora do território brasileiro?",
+        "alternativas": [
+          {"A": "Cerrado", "correta": false},
+          {"B": "Pantanal", "correta": false},
+          {"C": "Pampa", "correta": true},
+          {"D": "Mata Atlântica", "correta": false}
+        ],
+        "nivel": "fácil",
+        "dica": "Localizado no sul do Brasil, é o único bioma totalmente compartilhado com outros países (Argentina e Uruguai)."
+      },
+      {
+        "id": 7,
+        "enunciado": "Em qual bioma brasileiro encontramos a maior parte de sua vegetação formada por plantas de folhas largas e perenes?",
+        "alternativas": [
+          {"A": "Cerrado", "correta": false},
+          {"B": "Caatinga", "correta": false},
+          {"C": "Amazônia", "correta": true},
+          {"D": "Pantanal", "correta": false}
+        ],
+        "nivel": "fácil",
+        "dica": "Nesse bioma, as árvores possuem folhas largas e perenes devido ao clima úmido e chuvoso, ideal para florestas densas."
+      },
+      {
+        "id": 8,
+        "enunciado": "O bioma Caatinga é caracterizado principalmente por qual tipo de clima?",
+        "alternativas": [
+          {"A": "Equatorial e úmido", "correta": false},
+          {"B": "Tropical seco", "correta": true},
+          {"C": "Temperado e frio", "correta": false},
+          {"D": "Subtropical e úmido", "correta": false}
+        ],
+        "nivel": "fácil",
+        "dica": "Esse bioma é marcado por altas temperaturas e pouca chuva ao longo do ano."
+      },
+      {
+        "id": 9,
+        "enunciado": "Qual bioma brasileiro é conhecido por suas grandes áreas de campos abertos e vegetação rasteira?",
+        "alternativas": [
+          {"A": "Pantanal", "correta": false},
+          {"B": "Pampa", "correta": true},
+          {"C": "Amazônia", "correta": false},
+          {"D": "Mata Atlântica", "correta": false}
+        ],
+        "nivel": "fácil",
+        "dica": "Esse bioma é conhecido por suas vastas áreas de campos abertos com vegetação rasteira, ideal para a criação de gado."
+      },
+      {
+        "id": 10,
+        "enunciado": "O bioma Pantanal é considerado o maior do mundo em qual tipo de ecossistema?",
+        "alternativas": [
+          {"A": "Floresta tropical", "correta": false},
+          {"B": "Áreas alagadas e pantanosas", "correta": true},
+          {"C": "Campos secos e áridos", "correta": false},
+          {"D": "Deserto", "correta": false}
+        ],
+        "nivel": "fácil",
+        "dica": "É o maior ecossistema de áreas alagadas do mundo, com uma rica biodiversidade e ciclos sazonais de cheia e seca."
+      },
+      {
+        "id": 11,
+        "enunciado": "Quantos biomas formam o território brasileiro?",
+        "alternativas": [
+          {"A": "3", "correta": false},
+          {"B": "6", "correta": true},
+          {"C": "9", "correta": false},
+          {"D": "7", "correta": false}
+        ],
+        "nivel": "fácil",
+        "dica": "O Brasil é formado por Amazônia, Cerrado, Mata Atlântica, Caatinga, Pantanal e Pampa."
+      },
+      {
+        "id": 12,
+        "enunciado": "Quais são o maior e o menor bioma do território Brasileiro, respectivamente?",
+        "alternativas": [
+          {"A": "Cerrado e Caatinga", "correta": false},
+          {"B": "Amazônia e Mata Atlântica", "correta": false},
+          {"C": "Pampa e Pantanal", "correta": false},
+          {"D": "Amazônia e Pantanal", "correta": true}
+        ],
+        "nivel": "fácil",
+        "dica": "O maior bioma brasileiro cobre mais de 40% do território, enquanto o menor tem cerca de 2%."
+      },
+      {
+        "id": 13,
+        "enunciado": "Que bioma brasileiro fica localizado aproximadamente no centro do Brasil?",
+        "alternativas": [
+          {"A": "Cerrado", "correta": true},
+          {"B": "Mata Atlântica", "correta": false},
+          {"C": "Caatinga", "correta": false},
+          {"D": "Pampa", "correta": false}
+        ],
+        "nivel": "fácil",
+        "dica": "Situado no coração do Brasil, é considerado a savana mais rica em biodiversidade do mundo."
+      },
+      {
+        "id": 14,
+        "enunciado": "Qual bioma brasileiro é famoso pela presença de uma vegetação rasteira e árvores esparsas, sendo comum no Centro-Oeste?",
+        "alternativas": [
+          {"A": "Amazônia", "correta": false},
+          {"B": "Pantanal", "correta": false},
+          {"C": "Cerrado", "correta": true},
+          {"D": "Mata Atlântica", "correta": false}
+        ],
+        "nivel": "fácil",
+        "dica": "Esse bioma é conhecido como a 'savana brasileira' devido à sua vegetação composta por gramíneas, árvores de pequeno porte e arbustos adaptados ao clima quente e seco."
+      },
+      {
+        "id": 15,
+        "enunciado": "Qual é o principal rio que atravessa o bioma Amazônia?",
+        "alternativas": [
+          {"A": "Rio São Francisco", "correta": false},
+          {"B": "Rio Amazonas", "correta": true},
+          {"C": "Rio Paraná", "correta": false},
+          {"D": "Rio Tocantins", "correta": false}
+        ],
+        "nivel": "fácil",
+        "dica": "O rio que dá nome ao bioma Amazônia é o principal curso d'água da região, abrangendo uma vasta área da floresta."
+      },
+      {
+        "id": 16,
+        "enunciado": "Qual é um dos animais típicos do bioma Cerrado?",
+        "alternativas": [
+          {"A": "Pinguim", "correta": false},
+          {"B": "Lobo-guará", "correta": true},
+          {"C": "Canguru", "correta": false},
+          {"D": "Urso polar", "correta": false}
+        ],
+        "nivel": "fácil",
+        "dica": "Este animal é um dos maiores canídeos da América do Sul e é conhecido por sua alimentação baseada principalmente em frutas e pequenos animais."
+      },
+      {
+        "id": 17,
+        "enunciado": "Qual bioma brasileiro é caracterizado por grandes áreas alagadas e uma rica fauna aquática?",
+        "alternativas": [
+          {"A": "Cerrado", "correta": false},
+          {"B": "Pantanal", "correta": true},
+          {"C": "Caatinga", "correta": false},
+          {"D": "Pampa", "correta": false}
+        ],
+        "nivel": "fácil",
+        "dica": "Este bioma é um dos maiores pantanais do mundo, abrigando uma rica biodiversidade de peixes, jacarés e aves."
+      },
+      {
+        "id": 18,
+        "enunciado": "Qual é a principal característica do clima da Mata Atlântica?",
+        "alternativas": [
+          {"A": "Clima frio e seco", "correta": false},
+          {"B": "Clima tropical úmido", "correta": true},
+          {"C": "Clima desértico", "correta": false},
+          {"D": "Clima de alta montanha", "correta": false}
+        ],
+        "nivel": "fácil",
+        "dica": "A umidade proveniente do oceano contribui para a vegetação densa e a chuva constante."
+      },
+      {
+        "id": 19,
+        "enunciado": "Qual é um exemplo de animal típico da Mata Atlântica?",
+        "alternativas": [
+          {"A": "Camelo", "correta": false},
+          {"B": "Leão", "correta": false},
+          {"C": "Mico-leão-dourado", "correta": true},
+          {"D": "Urso polar", "correta": false}
+        ],
+        "nivel": "fácil",
+        "dica": "Esse animal é um pequeno primata, com pelagem dourada, e é símbolo de preservação no Brasil."
+      },
+      {
+        "id": 20,
+        "enunciado": "Qual é uma adaptação das plantas do bioma Caatinga para sobreviver à seca?",
+        "alternativas": [
+          {"A": "Folhas grandes e largas", "correta": false},
+          {"B": "Raízes superficiais", "correta": false},
+          {"C": "Folhas espinhosas e armazenamento de água", "correta": true},
+          {"D": "Floração o ano inteiro", "correta": false}
+        ],
+        "nivel": "fácil",
+        "dica": "Em vez de perder água, as plantas da Caatinga preferem armazená-la para enfrentar a escassez."
+      },
+      {
+        "id": 21,
+        "enunciado": "Qual é um dos principais produtos extraídos da Amazônia?",
+        "alternativas": [
+          {"A": "Petróleo", "correta": false},
+          {"B": "Borracha", "correta": true},
+          {"C": "Ouro", "correta": false},
+          {"D": "Gás natural", "correta": false}
+        ],
+        "nivel": "fácil",
+        "dica": "Esse produto foi muito importante para o Brasil no início do século XX, durante o ciclo da borracha."
+      },
+      {
+        "id": 22,
+        "enunciado": "Qual é o principal fator que contribui para a alta biodiversidade da Amazônia?",
+        "alternativas": [
+          {"A": "Clima frio", "correta": false},
+          {"B": "Presença de savanas", "correta": false},
+          {"C": "Grande quantidade de chuvas e calor", "correta": true},
+          {"D": "Águas geladas dos rios", "correta": false}
+        ],
+        "nivel": "fácil",
+        "dica": "A combinação de rios, florestas e clima tropical cria um ecossistema complexo, onde muitas espécies podem coexistir."
+      },
+      {
+        "id": 23,
+        "enunciado": "Qual é um animal típico do bioma Pampa?",
+        "alternativas": [
+          {"A": "Lince", "correta": false},
+          {"B": "Jaguatirica", "correta": false},
+          {"C": "Tatu", "correta": true},
+          {"D": "Búfalo", "correta": false}
+        ],
+        "nivel": "fácil",
+        "dica": "Esse animal é encontrado em várias partes do Brasil e é conhecido por ser um excelente cavador."
+      },
+      {
+        "id": 24,
+        "enunciado": "Qual é o maior rio que atravessa o bioma Pantanal?",
+        "alternativas": [
+          {"A": "Rio Amazonas", "correta": false},
+          {"B": "Rio São Francisco", "correta": false},
+          {"C": "Rio Paraguai", "correta": true},
+          {"D": "Rio Paraná", "correta": false}
+        ],
+        "nivel": "fácil",
+        "dica": "O nome deste rio também é o nome de um país vizinho do Brasil."
+      },
+      {
+        "id": 25,
+        "enunciado": "Qual é o maior animal encontrado na floresta Amazônica?",
+        "alternativas": [
+          {"A": "Onça-pintada", "correta": true},
+          {"B": "Elefante", "correta": false},
+          {"C": "Gorila", "correta": false},
+          {"D": "Cervo", "correta": false}
+        ],
+        "nivel": "fácil",
+        "dica": "Este animal é o maior predador terrestre da América do Sul."
+      },
+      {
+        "id": 26,
+        "enunciado": "Qual bioma é conhecido por sua grande biodiversidade e alto índice de desmatamento?",
+        "alternativas": [
+          {"A": "Cerrado", "correta": false},
+          {"B": "Pantanal", "correta": false},
+          {"C": "Amazônia", "correta": true},
+          {"D": "Caatinga", "correta": false}
+        ],
+        "nivel": "médio",
+        "dica": "Pense na floresta tropical mais extensa do Brasil, rica em espécies."
+      },
+      {
+        "id": 27,
+        "enunciado": "Qual é a vegetação típica do bioma Cerrado?",
+        "alternativas": [
+          {"A": "Florestas densas", "correta": false},
+          {"B": "Savanás com arbustos e gramíneas", "correta": true},
+          {"C": "Campos de altitude", "correta": false},
+          {"D": "Manguezais", "correta": false}
+        ],
+        "nivel": "médio",
+        "dica": "Este bioma apresenta árvores retorcidas e gramíneas."
+      },
+      {
+        "id": 28,
+        "enunciado": "Qual bioma é caracterizado por um solo alagado por grande parte do ano?",
+        "alternativas": [
+          {"A": "Mata Atlântica", "correta": false},
+          {"B": "Pantanal", "correta": true},
+          {"C": "Pampa", "correta": false},
+          {"D": "Caatinga", "correta": false}
+        ],
+        "nivel": "médio",
+        "dica": "Este bioma é uma das maiores áreas úmidas do mundo."
+      },
+      {
+        "id": 29,
+        "enunciado": "Qual bioma é predominantemente encontrado no Nordeste do Brasil?",
+        "alternativas": [
+          {"A": "Amazônia", "correta": false},
+          {"B": "Cerrado", "correta": false},
+          {"C": "Caatinga", "correta": true},
+          {"D": "Pantanal", "correta": false}
+        ],
+        "nivel": "médio",
+        "dica": "Este bioma é adaptado a um clima semiárido e possui vegetação xerófila."
+      },
+      {
+        "id": 30,
+        "enunciado": "Qual é uma característica marcante da Mata Atlântica?",
+        "alternativas": [
+          {"A": "Vegetação predominantemente xerófila", "correta": false},
+          {"B": "Alta taxa de endemismo", "correta": true},
+          {"C": "Solo arenoso", "correta": false},
+          {"D": "Temperaturas sempre altas", "correta": false}
+        ],
+        "nivel": "médio",
+        "dica": "Este bioma abriga muitas espécies que não são encontradas em nenhum outro lugar do mundo."
+      },
+      {
+        "id": 31,
+        "enunciado": "A que tipo de clima o bioma Pampa está associado?",
+        "alternativas": [
+          {"A": "Tropical", "correta": false},
+          {"B": "Semiárido", "correta": false},
+          {"C": "Temperado", "correta": true},
+          {"D": "Equatorial", "correta": false}
+        ],
+        "nivel": "médio",
+        "dica": "Este bioma é encontrado principalmente no Sul do Brasil, com clima mais ameno."
+      },
+      {
+        "id": 32,
+        "enunciado": "Quais são os principais animais encontrados no bioma Amazônico?",
+        "alternativas": [
+          {"A": "Ruminantes", "correta": false},
+          {"B": "Animais de grande porte como o elefante", "correta": false},
+          {"C": "Primatas, aves e répteis", "correta": true},
+          {"D": "Animais aquáticos", "correta": false}
+        ],
+        "nivel": "médio",
+        "dica": "Pense na diversidade de espécies que habitam as florestas tropicais, como a onça e o boto."
+      },
+      {
+        "id": 33,
+        "enunciado": "Qual bioma é conhecido por suas plantas adaptadas a condições de pouca água?",
+        "alternativas": [
+          {"A": "Pantanal", "correta": false},
+          {"B": "Caatinga", "correta": true},
+          {"C": "Cerrado", "correta": false},
+          {"D": "Mata Atlântica", "correta": false}
+        ],
+        "nivel": "médio",
+        "dica": "Este bioma possui cactos e arbustos espinhosos."
+      },
+      {
+        "id": 34,
+        "enunciado": "Qual é uma das principais ameaças ao bioma Pantanal?",
+        "alternativas": [
+          {"A": "Erosão do solo", "correta": false},
+          {"B": "Desmatamento para agricultura", "correta": false},
+          {"C": "Poluição hídrica", "correta": true},
+          {"D": "Urbanização", "correta": false}
+        ],
+        "nivel": "médio",
+        "dica": "Considere as consequências da atividade humana nas áreas alagadas."
+      },
+      {
+        "id": 35,
+        "enunciado": "Qual bioma possui predominantemente gramíneas e é utilizado para pastagens?",
+        "alternativas": [
+          {"A": "Amazônia", "correta": false},
+          {"B": "Pampa", "correta": true},
+          {"C": "Caatinga", "correta": false},
+          {"D": "Pantanal", "correta": false}
+        ],
+        "nivel": "médio",
+        "dica": "Pense em áreas abertas com pastagens para criação de gado."
+      },
+      {
+        "id": 36,
+        "enunciado": "Quais são as características climáticas do bioma Cerrado?",
+        "alternativas": [
+          {"A": "Quente e úmido o ano todo", "correta": false},
+          {"B": "Quente com estação seca e chuvosa", "correta": true},
+          {"C": "Frio e úmido", "correta": false},
+          {"D": "Temperado", "correta": false}
+        ],
+        "nivel": "médio",
+        "dica": "Este bioma apresenta um ciclo de seca e chuva bem definido."
+      },
+      {
+        "id": 37,
+        "enunciado": "Qual bioma é considerado um hotspot de biodiversidade?",
+        "alternativas": [
+          {"A": "Pantanal", "correta": false},
+          {"B": "Amazônia", "correta": false},
+          {"C": "Mata Atlântica", "correta": true},
+          {"D": "Pampa", "correta": false}
+        ],
+        "nivel": "médio",
+        "dica": "Este bioma é altamente ameaçado e rico em espécies endêmicas."
+      },
+      {
+        "id": 38,
+        "enunciado": "Qual é a flora predominante da Caatinga?",
+        "alternativas": [
+          {"A": "Florestas tropicais", "correta": false},
+          {"B": "Vegetação xerófila, como cactos e arbustos", "correta": true},
+          {"C": "Campos de altitude", "correta": false},
+          {"D": "Manguezais", "correta": false}
+        ],
+        "nivel": "médio",
+        "dica": "Este bioma é adaptado ao clima seco e quente."
+      },
+      {
+        "id": 39,
+        "enunciado": "Qual é a principal função do bioma Amazônico em relação ao clima global?",
+        "alternativas": [
+          {"A": "Produção de alimentos", "correta": false},
+          {"B": "Armazenamento de carbono", "correta": true},
+          {"C": "Fornecimento de água", "correta": false},
+          {"D": "Geração de energia", "correta": false}
+        ],
+        "nivel": "médio",
+        "dica": "Pense no papel das florestas na absorção de dióxido de carbono da atmosfera."
+      },
+      {
+        "id": 40,
+        "enunciado": "Qual bioma é reconhecido pelas formações de manguezais?",
+        "alternativas": [
+          {"A": "Pantanal", "correta": false},
+          {"B": "Mata Atlântica", "correta": true},
+          {"C": "Amazônia", "correta": false},
+          {"D": "Pampa", "correta": false}
+        ],
+        "nivel": "médio",
+        "dica": "Este bioma é encontrado em áreas costeiras, entre a terra e o mar."
+      },
+      {
+        "id": 41,
+        "enunciado": "Qual é uma característica do solo do bioma Pantanal?",
+        "alternativas": [
+          {"A": "Rico em nutrientes", "correta": true},
+          {"B": "Ácido e pobre", "correta": false},
+          {"C": "Arenoso", "correta": false},
+          {"D": "Raso e seco", "correta": false}
+        ],
+        "nivel": "médio",
+        "dica": "Considere as inundações e a fertilidade do solo na região."
+      },
+      {
+        "id": 42,
+        "enunciado": "Quais animais são mais comuns na Caatinga?",
+        "alternativas": [
+          {"A": "Peixes", "correta": false},
+          {"B": "Répteis e mamíferos pequenos", "correta": true},
+          {"C": "Grandes mamíferos", "correta": false},
+          {"D": "Aves migratórias", "correta": false}
+        ],
+        "nivel": "médio",
+        "dica": "Pense em espécies que conseguem sobreviver em ambientes áridos."
+      },
+      {
+        "id": 43,
+        "enunciado": "Qual bioma é mais afetado pela urbanização e expansão agrícola?",
+        "alternativas": [
+          {"A": "Mata Atlântica", "correta": true},
+          {"B": "Pantanal", "correta": false},
+          {"C": "Cerrado", "correta": false},
+          {"D": "Amazônia", "correta": false}
+        ],
+        "nivel": "médio",
+        "dica": "Este bioma é frequentemente desmatado para cultivo e pastagens."
+      },
+      {
+        "id": 44,
+        "enunciado": "Qual é a principal característica do bioma Pampa?",
+        "alternativas": [
+          {"A": "Florestas densas", "correta": false},
+          {"B": "Campos abertos com gramíneas", "correta": true},
+          {"C": "Áreas alagadas", "correta": false},
+          {"D": "Vegetação xerófila", "correta": false}
+        ],
+        "nivel": "médio",
+        "dica": "Pense em pastagens e áreas utilizadas para a pecuária."
+      },
+      {
+        "id": 45,
+        "enunciado": "Qual bioma é conhecido por seu clima equatorial?",
+        "alternativas": [
+          {"A": "Pantanal", "correta": false},
+          {"B": "Cerrado", "correta": false},
+          {"C": "Caatinga", "correta": false},
+          {"D": "Amazônia", "correta": true}
+        ],
+        "nivel": "médio",
+        "dica": "Este bioma tem chuvas abundantes e temperaturas elevadas durante todo o ano."
+      },
+      {
+        "id": 46,
+        "enunciado": "Como o desmatamento afeta os biomas brasileiros?",
+        "alternativas": [
+          {"A": "Aumenta a biodiversidade", "correta": false},
+          {"B": "Diminui as áreas verdes e afeta o clima", "correta": true},
+          {"C": "Melhora a qualidade do solo", "correta": false},
+          {"D": "Nenhuma das anteriores", "correta": false}
+        ],
+        "nivel": "médio",
+        "dica": "Pense nas consequências ambientais da perda de vegetação."
+      },
+      {
+        "id": 47,
+        "enunciado": "Qual bioma possui grande variação de espécies devido ao relevo acidentado?",
+        "alternativas": [
+          {"A": "Pampa", "correta": false},
+          {"B": "Cerrado", "correta": false},
+          {"C": "Mata Atlântica", "correta": true},
+          {"D": "Pantanal", "correta": false}
+        ],
+        "nivel": "médio",
+        "dica": "Este bioma tem montanhas e vales que criam microclimas favoráveis."
+      },
+      {
+        "id": 48,
+        "enunciado": "Quais fatores contribuem para a diversidade do bioma Amazônico?",
+        "alternativas": [
+          {"A": "Clima e solo", "correta": false},
+          {"B": "Variedade de habitats", "correta": false},
+          {"C": "Isolamento geográfico", "correta": false},
+          {"D": "Todas as anteriores", "correta": true}
+        ],
+        "nivel": "médio",
+        "dica": "Pense em como diferentes elementos influenciam a biodiversidade."
+      },
+      {
+        "id": 49,
+        "enunciado": "Qual é um dos principais produtos extrativistas da Mata Atlântica?",
+        "alternativas": [
+          {"A": "Borracha", "correta": false},
+          {"B": "Café", "correta": false},
+          {"C": "Cacau", "correta": false},
+          {"D": "Palmito", "correta": true}
+        ],
+        "nivel": "médio",
+        "dica": "Este produto é conhecido por seu uso na culinária e é extraído de palmeiras."
+      },
+      {
+        "id": 50,
+        "enunciado": "Como a fauna do bioma Cerrado se adapta ao fogo?",
+        "alternativas": [
+          {"A": "Fuga", "correta": false},
+          {"B": "Hibernação", "correta": false},
+          {"C": "Regeneração após queimadas", "correta": true},
+          {"D": "Migração", "correta": false}
+        ],
+        "nivel": "médio",
+        "dica": "Considere como algumas espécies se beneficiam do fogo para renovação."
+      },
+      {
+        "id": 51,
+        "enunciado": "O bioma Amazônia ocupa quantos porcentos do Brasil?",
+        "alternativas": [
+          {"A": "20%", "correta": false},
+          {"B": "30%", "correta": false},
+          {"C": "40%", "correta": true},
+          {"D": "50%", "correta": false}
+        ],
+        "nivel": "difícil",
+        "dica": "Considere a vasta extensão da floresta tropical."
+      },
+      {
+        "id": 52,
+        "enunciado": "Qual o clima predominante no bioma Amazônia?",
+        "alternativas": [
+          {"A": "equatorial úmido", "correta": true},
+          {"B": "tropical e equatorial", "correta": false},
+          {"C": "quente e tropical", "correta": false},
+          {"D": "apenas úmido", "correta": false}
+        ],
+        "nivel": "difícil",
+        "dica": "É o clima onde o sol brilha forte e as chuvas não param. Não é seco nem frio, perfeito para as florestas."
+      },
+      {
+        "id": 53,
+        "enunciado": "O bioma Caatinga compreende cerca de 11% do território brasileiro. O nome dado a esse bioma tem origem indígena e significa?",
+        "alternativas": [
+          {"A": "floresta quente", "correta": false},
+          {"B": "floresta seca", "correta": false},
+          {"C": "floresta branca", "correta": true},
+          {"D": "floresta verde", "correta": false}
+        ],
+        "nivel": "difícil",
+        "dica": "Este nome reflete as condições áridas da região."
+      },
+      {
+        "id": 54,
+        "enunciado": "Qual bioma brasileiro é caracterizado por ser uma savana tropical?",
+        "alternativas": [
+          {"A": "Pantanal", "correta": false},
+          {"B": "Cerrado", "correta": true},
+          {"C": "Caatinga", "correta": false},
+          {"D": "Mata Atlântica", "correta": false}
+        ],
+        "nivel": "difícil",
+        "dica": "É conhecido por ser a principal fonte de água para vários rios do Brasil, com importantes bacias hidrográficas em sua região."
+      },
+      {
+        "id": 55,
+        "enunciado": "Qual é a razão de o Pantanal ser considerado uma das áreas mais importantes para a conservação de aves migratórias na América do Sul?",
+        "alternativas": [
+          {"A": "Ele possui rios com águas cristalinas que atraem as aves", "correta": false},
+          {"B": "Ele é uma das maiores áreas alagadas do mundo, criando habitats ideais", "correta": true},
+          {"C": "Ele é rico em frutas que servem de alimento para essas aves", "correta": false},
+          {"D": "Ele tem uma temperatura constante durante todo o ano", "correta": false}
+        ],
+        "nivel": "difícil",
+        "dica": "O ciclo de cheias e secas renova os nutrientes e cria ambientes diversos."
+      },
+      {
+        "id": 56,
+        "enunciado": "Qual adaptação curiosa algumas plantas da Caatinga desenvolveram para sobreviver em um ambiente tão seco?",
+        "alternativas": [
+          {"A": "Elas soltam suas folhas durante a seca para economizar água", "correta": true},
+          {"B": "Elas produzem flores apenas no período noturno", "correta": false},
+          {"C": "Elas absorvem água diretamente do ar", "correta": false},
+          {"D": "Elas crescem mais rápido durante as chuvas intensas", "correta": false}
+        ],
+        "nivel": "difícil",
+        "dica": "Essa adaptação permite que as plantas reduzam a transpiração em períodos de estiagem."
+      },
+      {
+        "id": 57,
+        "enunciado": "Qual característica curiosa da Mata Atlântica a torna um dos biomas mais importantes para a produção de água no Brasil?",
+        "alternativas": [
+          {"A": "Sua vegetação densa impede o escoamento da água, facilitando a infiltração", "correta": true},
+          {"B": "Ela possui árvores que absorvem água das nuvens diretamente", "correta": false},
+          {"C": "Suas folhas liberam água em forma de névoa", "correta": false},
+          {"D": "Suas nascentes são responsáveis por 70% da água doce consumida no país", "correta": false}
+        ],
+        "nivel": "difícil",
+        "dica": "Apesar de fragmentada, este bioma ainda tem um papel crucial na recarga de aquíferos."
+      },
+      {
+        "id": 58,
+        "enunciado": "O Cerrado é conhecido por ser um bioma altamente adaptado ao fogo. Qual é a principal característica das plantas desse bioma que as ajuda a sobreviver aos incêndios frequentes?",
+        "alternativas": [
+          {"A": "Suas raízes são subterrâneas, o que permite regeneração rápida após o fogo", "correta": true},
+          {"B": "Elas têm folhas espessas que impedem a propagação do fogo", "correta": false},
+          {"C": "Suas sementes germinam apenas após o fogo, aproveitando os nutrientes liberados", "correta": false},
+          {"D": "Elas secretam substâncias químicas que protegem as plantas ao redor", "correta": false}
+        ],
+        "nivel": "difícil",
+        "dica": "Essa característica é essencial para a regeneração do bioma após queimadas naturais ou causadas pelo homem."
+      },
+      {
+        "id": 59,
+        "enunciado": "O Parque Nacional dos Lençóis Maranhenses está localizado na zona de transição de 3 biomas brasileiros, tendo fortes características de cada um deles. Quais são eles?",
+        "alternativas": [
+          {"A": "Pampa, Pantanal e Mata Atlântica", "correta": false},
+          {"B": "Mata Atlântica, Caatinga e Pampa", "correta": false},
+          {"C": "Cerrado, Amazônia e Pantanal", "correta": false},
+          {"D": "Amazônia, Cerrado e Caatinga", "correta": true}
+        ],
+        "nivel": "difícil",
+        "dica": "Características geológicas."
+      },
+      {
+        "id": 60,
+        "enunciado": "Qual é o bioma mais ameaçado do Brasil?",
+        "alternativas": [
+          {"A": "Amazônia", "correta": false},
+          {"B": "Cerrado", "correta": false},
+          {"C": "Mata Atlântica", "correta": true},
+          {"D": "Pantanal", "correta": false}
+        ],
+        "nivel": "difícil",
+        "dica": "Condições de conservação."
+      },
+      {
+        "id": 61,
+        "enunciado": "O bioma Amazônia abrange quantos estados brasileiros?",
+        "alternativas": [
+          {"A": "5", "correta": false},
+          {"B": "7", "correta": false},
+          {"C": "9", "correta": true},
+          {"D": "12", "correta": false}
+        ],
+        "nivel": "difícil",
+        "dica": "Extensão territorial."
+      },
+      {
+        "id": 62,
+        "enunciado": "Qual é a principal fonte de renda do bioma Pantanal?",
+        "alternativas": [
+          {"A": "Agricultura", "correta": false},
+          {"B": "Pecuária", "correta": true},
+          {"C": "Turismo", "correta": false},
+          {"D": "Mineração", "correta": false}
+        ],
+        "nivel": "difícil",
+        "dica": "Atividades econômicas."
+      },
+      {
+        "id": 63,
+        "enunciado": "Qual bioma é caracterizado por manguezais e restingas?",
+        "alternativas": [
+          {"A": "Mata Atlântica", "correta": true},
+          {"B": "Caatinga", "correta": false},
+          {"C": "Cerrado", "correta": false},
+          {"D": "Pantanal", "correta": false}
+        ],
+        "nivel": "difícil",
+        "dica": "Características costeiras."
+      },
+      {
+        "id": 64,
+        "enunciado": "Qual é o principal desafio para a conservação do Cerrado?",
+        "alternativas": [
+          {"A": "Desmatamento", "correta": true},
+          {"B": "Queimadas", "correta": false},
+          {"C": "Poluição", "correta": false},
+          {"D": "Invasão de espécies exóticas", "correta": false}
+        ],
+        "nivel": "difícil",
+        "dica": "Impactos ambientais."
+      },
+      {
+        "id": 65,
+        "enunciado": "O bioma Pampa é influenciado por qual clima?",
+        "alternativas": [
+          {"A": "Tropical", "correta": false},
+          {"B": "Subtropical", "correta": true},
+          {"C": "Temperado", "correta": false},
+          {"D": "Árido", "correta": false}
+        ],
+        "nivel": "difícil",
+        "dica": "Condições climáticas."
+      },
+      {
+        "id": 66,
+        "enunciado": "A Chapada Diamantina é uma região localizada no estado da Bahia, conhecida por suas impressionantes paisagens naturais, que incluem montanhas, cavernas, grutas, cachoeiras e vales, e é abrangida por 3 biomas brasileiros. Quais são eles?",
+        "alternativas": [
+          {"A": "Pampa, Pantanal e Mata Atlântica", "correta": false},
+          {"B": "Cerrado, Caatinga e Mata Atlântica", "correta": true},
+          {"C": "Mata Atlântica, Caatinga e Pampa", "correta": false},
+          {"D": "Cerrado, Amazônia e Pantanal", "correta": false}
+        ],
+        "nivel": "difícil",
+        "dica": "Características geológicas."
+      },
+      {
+        "id": 67,
+        "enunciado": "Qual é o principal fator que influencia a formação do bioma Pantanal?",
+        "alternativas": [
+          {"A": "Precipitação", "correta": false},
+          {"B": "Topografia", "correta": true},
+          {"C": "Temperatura", "correta": false},
+          {"D": "Umidade", "correta": false}
+        ],
+        "nivel": "difícil",
+        "dica": "Lembre-se da relação entre relevo e hidrologia."
+      },
+      {
+        "id": 68,
+        "enunciado": "Qual bioma apresenta adaptações específicas para resistir ao fogo?",
+        "alternativas": [
+          {"A": "Cerrado", "correta": true},
+          {"B": "Caatinga", "correta": false},
+          {"C": "Amazônia", "correta": false},
+          {"D": "Mata Atlântica", "correta": false}
+        ],
+        "nivel": "difícil",
+        "dica": "Considere características de resistência ao fogo."
+      },
+      {
+        "id": 69,
+        "enunciado": "Qual é o papel do bioma Amazônia na regulação do ciclo de carbono?",
+        "alternativas": [
+          {"A": "Armazenamento de carbono", "correta": true},
+          {"B": "Redução da emissão de gases", "correta": false},
+          {"C": "Produção de oxigênio", "correta": false},
+          {"D": "Aumento da temperatura", "correta": false}
+        ],
+        "nivel": "difícil",
+        "dica": "Lembre-se da função da Amazônia como 'pulmão' do planeta."
+      },
+      {
+        "id": 70,
+        "enunciado": "O bioma Pantanal é encontrado principalmente em qual estado?",
+        "alternativas": [
+          {"A": "Mato Grosso", "correta": false},
+          {"B": "Mato Grosso do Sul", "correta": true},
+          {"C": "Paraná", "correta": false},
+          {"D": "São Paulo", "correta": false}
+        ],
+        "nivel": "difícil",
+        "dica": "Localização geográfica."
+      },
+      {
+        "id": 71,
+        "enunciado": "Qual é o efeito do desmatamento no bioma Cerrado sobre a biodiversidade?",
+        "alternativas": [
+          {"A": "Perda de espécies endêmicas", "correta": true},
+          {"B": "Alteração do clima local", "correta": false},
+          {"C": "Redução da produção de oxigênio", "correta": false},
+          {"D": "Aumento da temperatura", "correta": false}
+        ],
+        "nivel": "difícil",
+        "dica": "Lembre-se das consequências do desmatamento."
+      },
+      {
+        "id": 72,
+        "enunciado": "Qual bioma é importante para a manutenção da qualidade da água?",
+        "alternativas": [
+          {"A": "Amazônia", "correta": false},
+          {"B": "Cerrado", "correta": true},
+          {"C": "Caatinga", "correta": false},
+          {"D": "Pantanal", "correta": false}
+        ],
+        "nivel": "difícil",
+        "dica": "É conhecido como berço das águas do Brasil."
+      },
+      {
+        "id": 73,
+        "enunciado": "Qual é o principal impacto do aquecimento global no bioma Caatinga?",
+        "alternativas": [
+          {"A": "Aumento da precipitação", "correta": false},
+          {"B": "Redução da temperatura", "correta": false},
+          {"C": "Alteração da estação seca", "correta": true},
+          {"D": "Perda de biodiversidade", "correta": false}
+        ],
+        "nivel": "difícil",
+        "dica": "Lembre-se das consequências das mudanças climáticas."
+      },
+      {
+        "id": 74,
+        "enunciado": "Qual bioma apresenta a maior taxa de evapotranspiração?",
+        "alternativas": [
+          {"A": "Amazônia", "correta": true},
+          {"B": "Cerrado", "correta": false},
+          {"C": "Mata Atlântica", "correta": false},
+          {"D": "Pantanal", "correta": false}
+        ],
+        "nivel": "difícil",
+        "dica": "Esse processo ocorre em maior quantidade em áreas com temperatura mais elevada e com precipitação abundante."
+      },
+      {
+        "id": 75,
+        "enunciado": "Qual é o principal mecanismo pelo qual o bioma Cerrado influencia a formação de chuvas no centro-sul do Brasil?",
+        "alternativas": [
+          {"A": "Evapotranspiração", "correta": true},
+          {"B": "Condensação", "correta": false},
+          {"C": "Convecção", "correta": false},
+          {"D": "Precipitação orográfica", "correta": false}
+        ],
+        "nivel": "difícil",
+        "dica": "Lembre-se da relação entre vegetação, umidade e ciclos hidrológicos."
+      },
+      {
+        "id": 76,
+        "enunciado": "Qual bioma brasileiro é conhecido por abrigar a maior biodiversidade de plantas endêmicas do mundo?",
+        "alternativas": [
+            {"A": "Mata Atlântica", "correta": true},
+            {"B": "Cerrado", "correta": false},
+            {"C": "Pantanal", "correta": false},
+            {"D": "Caatinga", "correta": false}
+        ],
+        "nivel": "muito difícil",
+        "dica": "Este bioma está localizado ao longo da costa brasileira."
+    },
+    {
+        "id": 77,
+        "enunciado": "Qual bioma brasileiro é considerado a maior planície alagável do mundo?",
+        "alternativas": [
+            {"A": "Amazônia", "correta": false},
+            {"B": "Pantanal", "correta": true},
+            {"C": "Cerrado", "correta": false},
+            {"D": "Pampas", "correta": false}
+        ],
+        "nivel": "muito difícil",
+        "dica": "Este bioma é conhecido por suas inundações sazonais."
+    },
+    {
+        "id": 78,
+        "enunciado": "Qual bioma brasileiro cobre aproximadamente 22% do território nacional e é caracterizado por vegetação de savana?",
+        "alternativas": [
+            {"A": "Caatinga", "correta": false},
+            {"B": "Mata Atlântica", "correta": false},
+            {"C": "Cerrado", "correta": true},
+            {"D": "Pampas", "correta": false}
+        ],
+        "nivel": "muito difícil",
+        "dica": "Este bioma é muitas vezes chamado de 'savana brasileira'."
+    },
+    {
+        "id": 79,
+        "enunciado": "Qual bioma brasileiro é predominantemente encontrado no Nordeste e é conhecido por suas condições semiáridas?",
+        "alternativas": [
+            {"A": "Pantanal", "correta": false},
+            {"B": "Caatinga", "correta": true},
+            {"C": "Amazônia", "correta": false},
+            {"D": "Cerrado", "correta": false}
+        ],
+        "nivel": "muito difícil",
+        "dica": "Este bioma tem vegetação adaptada à seca."
+    },
+    {
+        "id": 80,
+        "enunciado": "Qual bioma brasileiro é conhecido por suas vastas áreas de floresta tropical densa?",
+        "alternativas": [
+            {"A": "Pampas", "correta": false},
+            {"B": "Pantanal", "correta": false},
+            {"C": "Amazônia", "correta": true},
+            {"D": "Mata Atlântica", "correta": false}
+        ],
+        "nivel": "muito difícil",
+        "dica": "Este bioma cobre grande parte da Região Norte do Brasil."
+    },
+    {
+        "id": 81,
+        "enunciado": "Em qual bioma brasileiro a vegetação é predominantemente composta por gramíneas e plantas herbáceas, e não há árvores grandes?",
+        "alternativas": [
+            {"A": "Amazônia", "correta": false},
+            {"B": "Cerrado", "correta": false},
+            {"C": "Pantanal", "correta": false},
+            {"D": "Pampas", "correta": true}
+        ],
+        "nivel": "muito difícil",
+        "dica": "Este bioma é encontrado principalmente no sul do Brasil."
+    },
+    {
+        "id": 82,
+        "enunciado": "Qual bioma brasileiro possui a maior diversidade de répteis do mundo?",
+        "alternativas": [
+            {"A": "Cerrado", "correta": false},
+            {"B": "Amazônia", "correta": true},
+            {"C": "Pantanal", "correta": false},
+            {"D": "Caatinga", "correta": false}
+        ],
+        "nivel": "muito difícil",
+        "dica": "Este bioma é conhecido por sua biodiversidade extrema."
+    },
+    {
+        "id": 83,
+        "enunciado": "Qual bioma brasileiro é caracterizado por verões quentes e úmidos e invernos frios e secos?",
+        "alternativas": [
+            {"A": "Pampas", "correta": true},
+            {"B": "Pantanal", "correta": false},
+            {"C": "Cerrado", "correta": false},
+            {"D": "Mata Atlântica", "correta": false}
+        ],
+        "nivel": "muito difícil",
+        "dica": "Este bioma está localizado principalmente na Região Sul do Brasil."
+    },
+    {
+        "id": 84,
+        "enunciado": "Qual bioma brasileiro é conhecido por suas grandes áreas de brejos e pântanos?",
+        "alternativas": [
+            {"A": "Cerrado", "correta": false},
+            {"B": "Pantanal", "correta": true},
+            {"C": "Amazônia", "correta": false},
+            {"D": "Caatinga", "correta": false}
+        ],
+        "nivel": "muito difícil",
+        "dica": "Este bioma é a maior planície alagável do mundo."
+    },
+    {
+        "id": 85,
+        "enunciado": "Qual é a principal espécie vegetal característica do bioma Pampa?",
+        "alternativas": [
+            {"A": "Mandacaru", "correta": false},
+            {"B": "Pinus", "correta": false},
+            {"C": "Capim-de-espécie", "correta": false},
+            {"D": "Capim-nativo", "correta": true}
+        ],
+        "nivel": "muito difícil",
+        "dica": "O Pampa é dominada por gramíneas adaptadas às condições climáticas da região"
+    },
+    {
+        "id": 86,
+        "enunciado": "Qual bioma brasileiro apresenta solos extremamente pobres e ácidos, mas com grande riqueza de espécies vegetais?",
+        "alternativas": [
+            {"A": "Mata Atlântica", "correta": false},
+            {"B": "Cerrado", "correta": true},
+            {"C": "Caatinga", "correta": false},
+            {"D": "Pampas", "correta": false}
+        ],
+        "nivel": "muito difícil",
+        "dica": "Este bioma é conhecido como 'berço das águas'."
+    },
+    {
+        "id": 87,
+        "enunciado": "Qual bioma brasileiro é conhecido pela presença de muitas espécies endêmicas de cactos?",
+        "alternativas": [
+            {"A": "Mata Atlântica", "correta": false},
+            {"B": "Pantanal", "correta": false},
+            {"C": "Caatinga", "correta": true},
+            {"D": "Cerrado", "correta": false}
+        ],
+        "nivel": "muito difícil",
+        "dica": "Este bioma tem vegetação adaptada à seca."
+    },
+    {
+        "id": 88,
+        "enunciado": "Qual bioma brasileiro é reconhecido pela UNESCO em 1991 como Patrimônio Natural da Humanidade e Reserva da Biosfera?",
+        "alternativas": [
+            {"A": "Amazônia", "correta": false},
+            {"B": "Pantanal", "correta": false},
+            {"C": "Mata Atlântica", "correta": false},
+            {"D": "Cerrado", "correta": true}
+        ],
+        "nivel": "muito difícil",
+        "dica": "Este bioma tem uma grande diversidade de ecossistemas."
+    },
+    {
+        "id": 89,
+        "enunciado": "Qual bioma brasileiro ocupa a menor extensão territorial do país?",
+        "alternativas": [
+            {"A": "Pampas", "correta": true},
+            {"B": "Pantanal", "correta": false},
+            {"C": "Caatinga", "correta": false},
+            {"D": "Cerrado", "correta": false}
+        ],
+        "nivel": "muito difícil",
+        "dica": "Considerado uma das maiores extensões úmidas contínuas do planeta."
+    },
+    {
+        "id": 90,
+        "enunciado": "Qual bioma brasileiro é caracterizado por uma estação seca severa, com vegetação predominantemente xerófila?",
+        "alternativas": [
+            {"A": "Pantanal", "correta": false},
+            {"B": "Cerrado", "correta": false},
+            {"C": "Amazônia", "correta": false},
+            {"D": "Caatinga", "correta": true}
+        ],
+        "nivel": "muito difícil",
+        "dica": "Este bioma é encontrado no Nordeste do Brasil."
+    },
+    {
+        "id": 91,
+        "enunciado": "Qual bioma brasileiro possui a maior variedade de peixes de água doce?",
+        "alternativas": [
+            {"A": "Pantanal", "correta": false},
+            {"B": "Amazônia", "correta": true},
+            {"C": "Cerrado", "correta": false},
+            {"D": "Mata Atlântica", "correta": false}
+        ],
+        "nivel": "muito difícil",
+        "dica": "Este bioma tem rios que formam uma bacia hidrográfica de importância global."
+    },
+    {
+        "id": 92,
+        "enunciado": "Qual bioma brasileiro é mais afetado pelas queimadas naturais?",
+        "alternativas": [
+            {"A": "Caatinga", "correta": false},
+            {"B": "Cerrado", "correta": true},
+            {"C": "Pantanal", "correta": false},
+            {"D": "Mata Atlântica", "correta": false}
+        ],
+        "nivel": "muito difícil",
+        "dica": "Este bioma tem uma vegetação que se adapta e regenera rapidamente após queimadas."
+    },
+    {
+        "id": 93,
+        "enunciado": "Qual bioma brasileiro é conhecido por suas áreas de campos limpos e campos sujos?",
+        "alternativas": [
+            {"A": "Pampas", "correta": false},
+            {"B": "Cerrado", "correta": true},
+            {"C": "Pantanal", "correta": false},
+            {"D": "Caatinga", "correta": false}
+        ],
+        "nivel": "muito difícil",
+        "dica": "Este bioma é conhecido como a savana brasileira."
+    },
+    {
+        "id": 94,
+        "enunciado": "Qual bioma brasileiro tem a maior quantidade de espécies de aves migratórias?",
+        "alternativas": [
+            {"A": "Pantanal", "correta": true},
+            {"B": "Amazônia", "correta": false},
+            {"C": "Mata Atlântica", "correta": false},
+            {"D": "Cerrado", "correta": false}
+        ],
+        "nivel": "muito difícil",
+        "dica": "Este bioma é a maior planície alagável do mundo."
+    },
+    {
+        "id": 95,
+        "enunciado": "Qual bioma brasileiro possui a maior quantidade de espécies endêmicas de mamíferos?",
+        "alternativas": [
+            {"A": "Mata Atlântica", "correta": false},
+            {"B": "Cerrado", "correta": false},
+            {"C": "Amazônia", "correta": true},
+            {"D": "Pantanal", "correta": false}
+        ],
+        "nivel": "muito difícil",
+        "dica": "Este bioma é conhecido por sua grande biodiversidade."
+    },
+    {
+        "id": 96,
+        "enunciado": "Qual bioma brasileiro é caracterizado pela presença de árvores pequenas e arbustos, com folhas adaptadas para evitar perda de água?",
+        "alternativas": [
+            {"A": "Mata Atlântica", "correta": false},
+            {"B": "Caatinga", "correta": true},
+            {"C": "Cerrado", "correta": false},
+            {"D": "Pampas", "correta": false}
+        ],
+        "nivel": "muito difícil",
+        "dica": "Este bioma tem vegetação adaptada à seca."
+    },
+    {
+        "id": 97,
+        "enunciado": "Qual bioma brasileiro é um dos principais habitats do tamanduá-bandeira?",
+        "alternativas": [
+            {"A": "Cerrado", "correta": true},
+            {"B": "Amazônia", "correta": false},
+            {"C": "Pantanal", "correta": false},
+            {"D": "Mata Atlântica", "correta": false}
+        ],
+        "nivel": "muito difícil",
+        "dica": "Este bioma é caracterizado por uma vegetação de savana."
+    },
+    {
+        "id": 98,
+        "enunciado": "Qual bioma brasileiro é conhecido por sua vegetação de 'campo sujo' e 'campo limpo'?",
+        "alternativas": [
+            {"A": "Cerrado", "correta": true},
+            {"B": "Pampas", "correta": false},
+            {"C": "Pantanal", "correta": false},
+            {"D": "Caatinga", "correta": false}
+        ],
+        "nivel": "muito difícil",
+        "dica": "Este bioma é muitas vezes comparado às savanas africanas."
+    },
+    {
+        "id": 99,
+        "enunciado": "Qual bioma brasileiro tem uma biodiversidade tão alta que representa cerca de 30% da biodiversidade mundial?",
+        "alternativas": [
+            {"A": "Pantanal", "correta": false},
+            {"B": "Amazônia", "correta": true},
+            {"C": "Mata Atlântica", "correta": false},
+            {"D": "Cerrado", "correta": false}
+        ],
+        "nivel": "muito difícil",
+        "dica": "Este bioma é a maior floresta tropical do mundo."
+    },
+    {
+        "id": 100,
+        "enunciado": "Qual bioma brasileiro apresenta a maior quantidade de espécies de anfíbios?",
+        "alternativas": [
+            {"A": "Cerrado", "correta": false},
+            {"B": "Mata Atlântica", "correta": true},
+            {"C": "Amazônia", "correta": false},
+            {"D": "Pantanal", "correta": false}
+        ],
+        "nivel": "muito difícil",
+        "dica": "Este bioma está localizado ao longo da costa brasileira e em áreas montanhosas."
+    }
+    ]
+  }
+  
