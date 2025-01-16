@@ -1,3 +1,12 @@
+/* Estrutura geral */
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+/* Coluna principal */
 .column {
     background: linear-gradient(145deg, #1e1e1e, #282c34);
     width: 55vw;
@@ -5,6 +14,14 @@
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Coluna lateral */
+.side-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
 }
 
 /* Enunciado */
@@ -39,20 +56,14 @@
     background: linear-gradient(90deg, #1976d2, #42a5f5);
 }
 
-/* Layout */
-.row {
-    display: flex;
-    gap: 57px;
-}
-
 /* Caixa de ajuda */
-.caixa-ajuda {
+.caixa-ajuda,
+.extra-container {
     background: linear-gradient(145deg, #1e1e1e, #282c34);
     width: 400px;
-    height:fit-content;
+    height: fit-content;
     border-radius: 10px;
     padding: 15px;
-    margin: 40px 0;
     color: #fff;
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -72,17 +83,16 @@
     margin: 15px;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 .btn-sorte:hover,
 .btn-pular:hover,
 .btn-un:hover {
     background: #f57c00;
+    transform: scale(1.1);
 }
-
-.pulos-info {
-    font-size: 14px;
-    color: #ccc;
-    margin-top: 10px;
+.extra-container{
+    font-size: 30px;
+    font-weight: 900;
 }

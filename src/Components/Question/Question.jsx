@@ -3,12 +3,12 @@ import './Question.css';
 import { useNavigate } from "react-router-dom";
 import CasinoIcon from '@mui/icons-material/Casino';
 import SkipNextIcon from '@mui/icons-material/SkipNext';
-import SchoolIcon from '@mui/icons-material/School'
+import SchoolIcon from '@mui/icons-material/School';
 
-const Question = ({ enunciado, alternativas, dica, Acertar, pularQuestao }) => {
+const Question = ({ enunciado, alternativas, dica, Acertar, pularQuestao, premiacao }) => {
   const [alternativasEmbaralhadas, setAlternativasEmbaralhadas] = useState([]);
   const [alternativasOriginais, setAlternativasOriginais] = useState([]);
-  const [pulosRestantes, setPulosRestantes] = useState(3); 
+  const [pulosRestantes, setPulosRestantes] = useState(3);
   const [cartasUsadas, usarCartas] = useState(false);
   const [dicaUsada, usarDica] = useState(false);
   const [ajudaUsada, usarAjuda] = useState(false);
@@ -23,11 +23,10 @@ const Question = ({ enunciado, alternativas, dica, Acertar, pularQuestao }) => {
   const CartasSorte = () => {
     let novasAlternativas = [...alternativasOriginais];
     usarCartas(true);
-    let contador = 0;
-    let NumeroCarta = Math.ceil(Math.random() * 3);
-    alert(`As Cartas de Sorte irão escolher aleatoriamente entre 1 a 3 alternativas para eliminar contando com sua sorte. O número da sua sorte é...`)
-    alert(` ${NumeroCarta}! Agora você tem mais chances de acertar. Boa sorte!`)
+    const NumeroCarta = Math.ceil(Math.random() * 3);
+    alert(`As Cartas de Sorte eliminarão ${NumeroCarta} alternativas. Boa sorte!`);
 
+    let contador = 0;
     while (contador < NumeroCarta && novasAlternativas.length > 1) {
       const index = Math.floor(Math.random() * novasAlternativas.length);
       if (!novasAlternativas[index].correta) {
@@ -50,7 +49,7 @@ const Question = ({ enunciado, alternativas, dica, Acertar, pularQuestao }) => {
 
   const pular = () => {
     if (pulosRestantes > 0) {
-      setPulosRestantes(pulosRestantes - 1); 
+      setPulosRestantes(pulosRestantes - 1);
       pularQuestao();
     }
   };
@@ -64,87 +63,75 @@ const Question = ({ enunciado, alternativas, dica, Acertar, pularQuestao }) => {
             <div
               key={index}
               className="answer"
-              onClick={
-                () => {
-                  if(window.confirm('Você está certo desta resposta?')){
-                    verificarResposta(alternativa.correta)
-                  }
-                } 
-              }
+              onClick={() => {
+                if (window.confirm('Você está certo desta resposta?')) {
+                  verificarResposta(alternativa.correta);
+                }
+              }}
             >
               {alternativa.texto}
             </div>
           ))}
         </div>
       </div>
-      <div className="caixa-ajuda">
-        <button
-          onClick={() => {
-            if(window.confirm('Deseja utilizar as cartas?'))
-              {CartasSorte()}
-          }} 
 
-          className="btn-sorte"
-          disabled={cartasUsadas}
-          style={{
-            background : cartasUsadas? 'red' : ''
-          }}
+      <div className="side-column">
+        <div className="caixa-ajuda">
+          <button
+            onClick={() => {
+              if (window.confirm('Deseja utilizar as cartas?')) {
+                CartasSorte();
+              }
+            }}
+            className="btn-sorte"
+            disabled={cartasUsadas}
           >
-
-          <CasinoIcon style={{ fontSize: '20px' }} /> <br />
-          Usar Cartas de Sorte 
-        </button>
-        <button 
-          onClick={
-            () => {
-              if(window.confirm(`Você deseja pular a questão? Você tem apenas ${pulosRestantes} pulos restando...`)){
+            <CasinoIcon /> <br />
+            Usar Cartas de Sorte
+          </button>
+          <button
+            onClick={() => {
+              if (window.confirm(`Você deseja pular a questão? Você tem apenas ${pulosRestantes} pulos restantes...`)) {
                 pular();
               }
-            }
-          } 
-          className="btn-pular" 
-          disabled={pulosRestantes === 0}
-          style = {{
-            background : pulosRestantes == 0? 'red' : ''
-          }} 
-        >
-          <SkipNextIcon style={{ fontSize: '20px' }} /> <br />
-          Pular Questão {pulosRestantes}x
-        </button>
-        <button className='btn-un'
-          disabled={ajudaUsada}
-          style={{
-            background : ajudaUsada? 'red' : ''
-          }}
-          onClick={
-            () => {
-              if(window.confirm('Você deseja pedir ajuda aos universitários?')){
+            }}
+            className="btn-pular"
+            disabled={pulosRestantes === 0}
+          >
+            <SkipNextIcon /> <br />
+            Pular Questão {pulosRestantes}x
+          </button>
+          <button
+            onClick={() => {
+              if (window.confirm('Você deseja pedir ajuda aos universitários?')) {
                 usarAjuda(true);
-                alert('Você pediu ajuda aos universitários, ao seu lado devem estar 3 alunos do IFPI - Campus Parníba que vão dar suas opiniões sobre a questão.')
+                alert('Você pediu ajuda aos universitários.');
               }
-            }
-          }>
-        <SchoolIcon style={{ fontSize: '20px' }}/> <br />
-          Ajuda dos Universitários
-        </button>
-        <button 
-          disabled = {dicaUsada}
-          style={{
-            background : dicaUsada? 'red' : ''
-          }}
-          onClick={
-            () => {
-              if(window.confirm('Você deseja pedir uma dica?')){
+            }}
+            className="btn-un"
+            disabled={ajudaUsada}
+          >
+            <SchoolIcon /> <br />
+            Ajuda dos Universitários
+          </button>
+          <button
+            onClick={() => {
+              if (window.confirm('Você deseja pedir uma dica?')) {
                 usarDica(true);
-                alert(dica)
+                alert(dica);
               }
-            }
-          } 
-          className='btn-un'>
-            <SchoolIcon style={{ fontSize: '20px' }}/> <br />
-            Usar Dica 
-            <br />&nbsp;
-        </button>
+            }}
+            className="btn-un"
+            disabled={dicaUsada}
+          >
+            <SchoolIcon /> <br />
+            Usar Dica
+          </button>
+        </div>
+
+        <div className="extra-container">
+          <p>{premiacao}</p>
+        </div>
       </div>
     </div>
   );

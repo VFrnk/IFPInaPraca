@@ -10,6 +10,8 @@ function Game() {
     const [perguntasExibidas, setPerguntasExibidas] = useState([]);
     const [perguntaAtual, setPerguntaAtual] = useState(null);
 
+    const premiacoes = ['1 MIL','2 MIL','3 MIL','5 MIL','10 MIL','20 MIL','30 MIL','50 MIL','100 MIL','200 MIL','300 MIL','400 MIL','500 MIL','750 MIL','1 Milhão',];
+
     const perguntasFiltradas = perguntas.perguntas.filter(
         (pergunta) => 
             pergunta.nivel === nivelAtual && 
@@ -66,6 +68,7 @@ function Game() {
                 }))}
                 Acertar={handleAcerto}
                 pularQuestao={pularQuestao} 
+                premiacao={premiacoes[acertos]}
             />
             <div style={{ marginTop: "20px", color: "darkblue", fontSize: "18px", fontWeight: "bold" }}>
                 <p>Acertos: {acertos}</p>
